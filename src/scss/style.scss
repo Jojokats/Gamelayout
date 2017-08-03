@@ -1,0 +1,107 @@
+$text-color: #131313;
+
+body {
+  color: #ede6e6;
+}
+
+#hero {
+    background: url('/assets/bg.jpg') no-repeat;
+    background-size:cover;
+    background-position: 0 60%;
+}
+
+.navbar {
+
+  width: 100%;
+  background: none !important;
+
+// for mobile devices only
+  @media(max-width:34em) {
+    background-color: black !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+
+  .navbar-toggler {
+    cursor: pointer;
+    outline: 0;
+  }
+
+  .navbar-nav {
+    padding-top: 10px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+
+  }
+
+  .nav-item {
+    padding: 0 1rem;
+
+    @media(max-width: 34em) {
+      padding:0;
+    }
+
+    .nav-link {
+      @media(max-width: 34em) {
+        font-weight: normal;
+        color:#fff!important;
+      }
+    } // end nav-link
+
+  } // end nav-item
+} // end navbar
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.hero-img {
+  width: 80%;
+}
+
+.feature-wrapper {
+  color: $text-color;
+}
+
+#join-container {
+  background-color: grey;
+  background: url('/assets/screen1.jpg') no-repeat;
+  background-size: cover;
+
+  h2 {
+    letter-spacing: 4px;
+  }
+  h4 {
+    color: rgb(139, 139, 139);
+  }
+  .form-control {
+    background: #3e3e3e;
+    border: 3px solid #2f2f2f;
+    padding: 10px;
+    color: #ececec;
+    font-size: 1.2rem;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #9f9f9f;
+  }
+
+  .btn {
+    padding: 12px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #19daad !important;
+    }
+  }
+
+
+}

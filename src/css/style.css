@@ -1,0 +1,67 @@
+body {
+  color: #ede6e6; }
+
+#hero {
+  background: url("/assets/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%; }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background-color: black !important; } }
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    padding-top: 10px; }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .navbar-nav {
+    padding-top: 10px; }
+  .navbar .nav-link {
+    text-transform: uppercase; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    @media (max-width: 34em) {
+      .navbar .nav-item .nav-link {
+        font-weight: normal;
+        color: #fff !important; } }
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5em; }
+
+.hero-img {
+  width: 80%; }
+
+.feature-wrapper {
+  color: #131313; }
+
+#join-container {
+  background-color: grey;
+  background: url("/assets/screen1.jpg") no-repeat;
+  background-size: cover; }
+  #join-container h2 {
+    letter-spacing: 4px; }
+  #join-container h4 {
+    color: #8b8b8b; }
+  #join-container .form-control {
+    background: #3e3e3e;
+    border: 3px solid #2f2f2f;
+    padding: 10px;
+    color: #ececec;
+    font-size: 1.2rem; }
+  #join-container input::-webkit-input-placeholder {
+    color: #9f9f9f; }
+  #join-container .btn {
+    padding: 12px;
+    border: none;
+    color: #000;
+    cursor: pointer; }
+    #join-container .btn:hover {
+      background-color: #19daad !important; }
